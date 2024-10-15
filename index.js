@@ -1,6 +1,6 @@
 import chalk from "chalk";
 
-console.log(chalk.red("Victor"));
-console.log(chalk.green("Damien"));
-console.log(chalk.yellow("Gabi"));
-console.log(chalk.cyan("Christine"));
+console.log(chalk.bgRed("Victor"));
+console.log(chalk.bold.green("Damien"));
+console.log(chalk.bgYellow("Gabi"));
+console.log(chalk.dim.cyan("Christine"));
